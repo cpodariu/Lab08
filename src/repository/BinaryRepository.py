@@ -4,7 +4,7 @@ from repository.Repository import Repository
 
 
 class BinaryRepository(Repository):
-    def __init__(self, entity_class, file):
+    def __init__(self, entity_class: object, file: object) -> object:
         super().__init__()
         self.__entity_class = entity_class
         self.__file = file
