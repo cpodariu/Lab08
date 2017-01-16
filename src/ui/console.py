@@ -264,15 +264,15 @@ class Console:
 
     def __undo(self):
         self.__person_ctrl.undo_operation()
-  #      self.__activity_ctrl.undo_operation()
+        self.__activity_ctrl.undo_operation()
 
     def __redo(self):
         self.__person_ctrl.redo_operation()
- #       self.__activity_ctrl.redo_operation()
+        self.__activity_ctrl.redo_operation()
 
     def __copy_repository(self):
         self.__person_ctrl.copy_repo()
-#        self.__activity_ctrl.copy_repo()
+        self.__activity_ctrl.copy_repo()
 
     def run(self):
         self.__copy_repository()
